@@ -612,6 +612,12 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.5);
     transition: all .4s .2s; }
+    @media (max-width: 56.25em) {
+      .popup__content {
+        width: 80%; } }
+    @media (max-width: 37.5em) {
+      .popup__content {
+        width: 85%; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }
