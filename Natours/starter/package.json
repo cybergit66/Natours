@@ -9,6 +9,7 @@
   "author": "Terence Highsmith",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.8.3"
+    "fstream": ">=1.0.12",
+    "node-sass": "^4.12.0"
   }
 }
