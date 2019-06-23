@@ -1,0 +1,33 @@
+// page will have container centered in the viewport
+// container will have a header, side nav, and main content section
+
+.container {
+    max-width: 120rem;
+    margin: 8rem auto; // center the container
+    background-color: var(--color-grey-light-2);
+    box-shadow: var(--shadow-dark); // create blur around the container
+
+    min-height: 50rem;
+}
+
+.header {
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--color-grey-light-2);
+}
+
+.content {
+   display: flex;
+}
+
+.sidebar {
+     background-color: var(--color-grey-dark-1);
+
+     flex: 0 0 18%; // sidebar will not grow or shrink; it will occupy 18% of content  container width
+}
+
+.hotel-view {
+    background-color: #fff;
+
+    flex: 1; // will occupy remaining space available in content container
+}
