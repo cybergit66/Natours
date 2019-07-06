@@ -29,10 +29,15 @@
      background-color: var(--color-grey-dark-1);
 
      flex: 0 0 18%; // sidebar will not grow or shrink; it will occupy 18% of content  container width
+
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
 }
 
 .hotel-view {
     background-color: var(--color-primary-light);
+    height: 80rem;
 
     flex: 1; // will occupy remaining space available in content container
 }
