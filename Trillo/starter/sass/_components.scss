@@ -169,7 +169,7 @@
         text-transform: uppercase;
         display: block;
         padding: 1.5rem 3rem;
-        position: relative; // needed for z-index below
+        position: relative; // needed for z-index 
         z-index: 10; // position link text above ::before element 
 
         display: flex;
